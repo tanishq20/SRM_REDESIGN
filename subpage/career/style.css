@@ -169,7 +169,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     font-family: "Helvetica";
     /* max-width: 768px; */
     width:100%;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 0 5px 40px rgba(0, 0, 0, .3);
 }
 .tab-content .active{
@@ -448,5 +448,13 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 @media screen and (min-width: 980px) {
   .contact-info {
     padding-left: 110px;
+  }
+}
+
+@media(max-width:476px){
+  .tab-nav button{
+    padding:0px;
+    font-size: 8px;
+    line-height: 20px;
   }
 }
