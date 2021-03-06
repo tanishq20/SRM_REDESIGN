@@ -169,7 +169,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     font-family: "Helvetica";
     /* max-width: 768px; */
     width:100%;
-    overflow: auto;
+    overflow: hidden;
     box-shadow: 0 5px 40px rgba(0, 0, 0, .3);
 }
 .tab-content .active{
