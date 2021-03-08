@@ -3560,7 +3560,7 @@ html:not(.js) .cd-faq__items {
     font-size: 0.83333em;
     font-size: var(--text-sm);
     font-weight: 700;
-    color: hsl(240,  1%,  74.7%);
+/*     color: hsl(240,  1%,  74.7%); */
 /*     color: hsl(var(--color-contrast-low-h),  var(--color-contrast-low-s),  calc(var(--color-contrast-low-l)*0.9)); */
 }
 @media (min-width: 64rem) {
