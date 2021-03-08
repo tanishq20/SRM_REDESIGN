@@ -3600,8 +3600,9 @@ html:not(.js) .cd-faq__items {
     position: relative;
     margin: 1.25em 0 0.5em;
     margin: var(--space-md) 0 var(--space-xs);
-    color: hsl(73,  46%,  55%);
-    color: var(--cd-color-2);
+/*     color: hsl(73,  46%,  55%);
+    color: var(--cd-color-2); */
+  font-weight: bold;
 }
 @media (min-width: 64rem) {
     .cd-faq__trigger {
@@ -3613,6 +3614,7 @@ html:not(.js) .cd-faq__items {
 .cd-faq__trigger span {
     font-size: 1.2em;
     font-size: var(--text-md);
+  font-weight: bold;
 }
 .cd-faq__trigger::before, .cd-faq__trigger::after {
     content: '';
