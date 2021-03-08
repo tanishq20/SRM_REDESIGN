@@ -3574,12 +3574,14 @@ html:not(.js) .cd-faq__items {
 }
 }@media (min-width: 64rem) {
     .cd-faq__item {
-    background: hsl(0,  0%,  100%);
-    background: var(--cd-color-4);
+/*     background: hsl(0,  0%,  100%);
+    background: var(--cd-color-4); */
     margin-bottom: 0.25em;
     margin-bottom: var(--space-xxxs);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
     transition: box-shadow .2s;
+      background-color: hsl(0, 0%, 95%);
+    background-color: var(--color-contrast-lower);
 }
 .cd-faq__item:hover {
     --box-shadow:  hsla(210,  14%,  49%,  0.3);
@@ -3742,10 +3744,10 @@ html:not(.js) .cd-faq__items {
     visibility: visible;
     opacity: 1;
 }
-body {
+/* body {
     background-color: hsl(0,  0%,  95%);
     background-color: var(--color-contrast-lower);
-}
+} */
 .cd-header {
     --header-height:  180px;
     height: 180px;
